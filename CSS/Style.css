@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+    display: flex;
+    flex-flow: column;
+    /*background: rgba(128,128,196 ,1);*/
+    background: url(blackbricks.jpg);
+
+    /*justify-content: center;
+    align-items: center;*/
+}
+
+@font-face {
+  src: url(../Fonts/Roboto-Light.woff2);
+  font-family: 'Roboto-Light';
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    /*background: rgba(0,0,0,0.5);*/
+    /*z-index: -1; */
+}
